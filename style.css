@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(clockbackground.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+.body-container{
+    margin: 50px 0px 0px 100px;
+
+
+}
+.Quote{
+    /* background-color: aqua; */
+   color: white;
+    width: 400px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-clock-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 400px;
+    align-content: flex-end;
+    align-items: end;
+  
+    /* background-color: brown; */
+    width: 50%;
+    height: 250px;
+
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    color: white;
+    /* margin-top: 400px; */
+    /* height: 120px; */
+    width: 400px;
+}
+.clock-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 400px;
+    
+}
+.clock-container div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 90%;
+    width: 32%;
+    font-size: 120px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 5px;
+
+    /* border: 2px solid black; */
+}
+#amps{
+    font-size: 30px;
+    font-weight: 900;
+    align-items: end;
+    width: 50px;
+}
+#colon{
+    height: 135px;
+    width: 20px;
+    justify-content: center;
+    padding-right: 8px;
+}
+p{
+    margin :0px;
+   
+}
+ .btn-div{
+   margin-left: 400px;
+} 
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: Arial;
+    color: rgb(104, 104, 104);
+    width: 100px;
+}
