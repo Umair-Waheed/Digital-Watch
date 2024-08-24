@@ -1,8 +1,9 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: url(clockbackground.jpg);
     height: 100vh;
+    background: url(clockbackground.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 
 }
@@ -88,4 +89,47 @@ button{
     font-family: Arial;
     color: rgb(104, 104, 104);
     width: 100px;
+}
+@media(max-width:800px){
+    body{
+        height: 100%;
+    }
+    .body-container{
+        margin: 50px 0px 0px 20px;
+    
+    
+    }
+    .main-container{
+        width: 250px;
+    }
+    .main-container p{
+        font-size: 13px;
+    }
+    .clock-container{
+        height: 80px;
+    }
+    .clock-container div{
+    font-size: 50px;
+    }
+    #amps{
+        margin-top: 0px;
+        align-items: flex-start;
+        margin-top: 15px;
+
+    }
+    .main-clock-container{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .Quote{
+        width: 230px;
+    }
+    .Quote p{
+        font-size: 12px;
+        
+    }
+    .btn-div{
+        display: none;
+
+    }
 }
